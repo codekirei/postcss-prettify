@@ -4,11 +4,10 @@ import indent from '../indent'
 
 export default function rule(node) {
   const nodeDepth = depth(node)
+  const indentStr = '  '.repeat(nodeDepth)
   indent(node, nodeDepth)(['before', 'after'])
   node.raws.between = ' '
   node.raws.semicolon = true
-  if (node.selector.indexOf(', ') >= 0) {
-    node.selector = node.selector.replace(/, /g, ',\n')
-  }
+  node.selector = node.selector.replace(/\s*,\s*/g, `,\n${indentStr}`)
   if (nodeDepth === 0) doubleSpace(node)
 }

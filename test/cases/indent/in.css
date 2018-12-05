@@ -1,11 +1,8 @@
 @media (min-width: 600px) {
-  .foo {
+  /* Comment */
+  .foo, .bar {
     animation: Demo 1s;
     -webkit-animation: Demo 1s;
   }
-  @supports (display: flex) {
-    .foo {
-      display: flex;
-    }
-  }
+  @supports (display: flex) { /* Comment */ .foo, .bar { display: flex; }}
 }

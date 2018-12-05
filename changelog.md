@@ -2,9 +2,15 @@
 
 This project uses [semver](http://semver.org/).
 
+## 0.3.5 &mdash; 12/5/18
+
+- Fix the one selector per line
+- Fix indenting with multiple selectors
+- Fix comments indenting and adding extra new lines
+
 ## 0.3.4 &mdash; 3/16/16
 
-Fix fail on empty input with checks for setting `css.first.raws.before = ''`.
+- Fix fail on empty input with checks for setting `css.first.raws.before = ''`.
 
 ## 0.3.1 - 0.3.3 &mdash; 3/16/16
 

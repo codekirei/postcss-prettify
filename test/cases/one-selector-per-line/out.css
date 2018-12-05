@@ -2,3 +2,8 @@
 .bar {
   background: blue;
 }
+
+.foo,
+.bar {
+  background: blue;
+}
