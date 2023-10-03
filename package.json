@@ -31,7 +31,7 @@
   "homepage": "https://github.com/codekirei/postcss-prettify#readme",
   "dependencies": {
     "defined": "1.0.0",
-    "postcss": "5.0.19"
+    "postcss": "8.4.31"
   },
   "devDependencies": {
     "babel-cli": "6.6.5",
