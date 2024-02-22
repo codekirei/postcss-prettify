@@ -1,7 +1,0 @@
-@charset "UTF-8";
-
-@media (min-width: 600px) {
-  body {
-    background: red;
-  }
-}
